@@ -10,10 +10,19 @@ int main() {
 
     cout << "Before swapping:" << "\n" << "a = " << a << "\n" << "b = " << b << "\n";
 
-    int temp;
-    temp = b;
-    b = a;
-    a = temp;
+    // Using temporary variable
+    // int temp;
+    // temp = b;
+    // b = a;
+    // a = temp;
+
+    // Using bitwise XOR
+    // a = a ^ b;
+    // b = a ^ b;
+    // a = a ^ b;
+
+    // Using inbuilt function 'swap'
+    swap(a, b);
 
     cout << "After swapping:" << "\n" << "a = " << a << "\n" << "b = " << b << "\n";
 }
