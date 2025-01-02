@@ -17,3 +17,6 @@ output1.txt
 
 # Ignore .DS_Store
 .DS_Store
+
+# Ignore .vscode
+.vscode
